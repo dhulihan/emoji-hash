@@ -13,8 +13,9 @@ import (
 )
 
 func main() {
-	if len(os.Args) < 1 {
-		log.Fatal("please provide a string")
+	if len(os.Args) < 2 {
+		fmt.Println("please provide a string")
+		os.Exit(1)
 	}
 
 	emojiMap := emoji.Map()
