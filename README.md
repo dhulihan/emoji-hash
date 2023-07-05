@@ -19,6 +19,6 @@ $ emoji-hash "hello world"
 $ emoji-hash "hello world"
 🆓
 
-$ go run main.go "hello jupiter"
+$ emoji-hash "hello jupiter"
 🍠
 ```
